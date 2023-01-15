@@ -51,6 +51,6 @@ class Main {
         break;
     }
 
-    input.close();
-  }
+    input.close() //bug
+  
 }
