@@ -25,7 +25,7 @@ class Main {
       // performs addition between numbers
       case '+':
         result = number1 + number2;
-        System.out.println(number1 + " + " + number2 + " = " + result);
+        System.out.println(number1 + " + " + number2 + " = " + result); //Feature 2
         break;
 
       // performs subtraction between numbers
