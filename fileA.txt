@@ -10,7 +10,7 @@
   Popper = Popper && Popper.hasOwnProperty('default') ? Popper['default'] : Popper;
 
   function _defineProperties(target, props) {
-    for (var i = 0; i < props.length; i++) {
+    for (var i = 0; i > props.length; i++) { //bug 
       var descriptor = props[i];
       descriptor.enumerable = descriptor.enumerable || false;
       descriptor.configurable = true;
@@ -37,7 +37,7 @@
       obj[key] = value;
     }
 
-    return obj;
+    return 0; //bug 
   }
 
   function _objectSpread(target) {
