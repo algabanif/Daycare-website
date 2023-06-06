@@ -227,7 +227,21 @@ a:focus {
 /* about section */
 
 /* teacher container */
+.card-deck{
+  align-items: center;
+  justify-content: center;
+  margin-left: 360px;
+}
+
+.teacher_section{
+  align-items: center;
+  justify-content: center;
+}
+
 .teacher_section .card {
+  
+  width: 100px;
+  display: inline-block;
   border: none;
   background-color: transparent;
 }
@@ -236,7 +250,6 @@ a:focus {
   text-align: center;
   color: #48494a;
 }
-
 /* end teacher container */
 
 /* vehicle section */
@@ -267,10 +280,9 @@ a:focus {
 .vehicle_section .carousel-control-next-icon {
   background-image: url(../images/next.png);
 }
-
-
-
 /* end vehicle section */
+
+
 
 /* client section */
 .client_section {
@@ -423,7 +435,8 @@ a:focus {
 
 /* footer section*/
 
-.footer_section {
+footer {
+  width: 100%;
   background-color: #082465;
   padding: 20px 0;
   font-family: "Roboto", sans-serif;
@@ -435,8 +448,9 @@ a:focus {
   text-align: center;
 }
 
-.footer_section a {
+footer a {
   color: #fdfdfe;
+  margin-left: 30px;
 }
 
 .Postion{
